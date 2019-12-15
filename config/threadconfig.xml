@@ -1,0 +1,18 @@
+<xml name="ITS-ITSHARE">
+	<thread-manager>
+		<thread name="ProcessThreadTestThread">
+			<thread-class>com.its.thread.abstracts.process.ProcessThreadTestThread
+			</thread-class>
+			<parameters>
+				<param name="param1">value1
+				</param>
+				<param name="param2">value2
+				</param>
+				<param name="param3">value3
+				</param>
+			</parameters>
+			<!-- trạng thái để khi load thread sẽ start lên luôn -->
+			<startup-type>START</startup-type>
+		</thread>
+	</thread-manager>
+</xml>
